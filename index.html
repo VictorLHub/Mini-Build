@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
     <section>
-      <nav>
-        <img src="./HTML Practise Assets/FES.svg" alt="" />
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#discord">Discord</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <header>
-        <div>
-          <h1>Best Place To Learn Frontent</h1>
-          <p>
-            Go from an absolute beginner to being a pro with a simplified
-            process.
-          </p>
-          <button>Start Now</button>
-        </div>
-        <figure>
-          <img src="./HTML Practise Assets/laptop.png" alt="Home page image" />
-        </figure>
-      </header>
+        <nav>
+            <img src="./HTML Practise Assets/FES.svg" class="logo" alt="" />
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div>
+                    <h1>Best Place To Learn Frontent</h1>
+                    <p class="subheader">
+                        Go from an absolute beginner to being a pro with a simplified
+                        process.
+                    </p>
+                    <button>Start Now</button>
+                </div>
+                <figure>
+                    <img src="./HTML Practise Assets/laptop.png" alt="Home page image" />
+                </figure>
+            </div>
+        </header>
     </section>
 
     <main>
-      <section id="about">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis sint sit iste repellendus modi odit possimus ullam ipsam delectus! Voluptate, sit! Doloremque voluptatem provident veniam aut temporibus, delectus, reprehenderit distinctio impedit, ratione at pariatur odio sunt nostrum nisi expedita similique fugiat possimus sapiente vel optio facere reiciendis magni architecto perferendis. Expedita quia, sequi libero voluptatibus hic natus quo beatae delectus! Laudantium quia totam iure sequi enim. Numquam, ab. At!</p>
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis sint sit iste repellendus modi odit possimus ullam ipsam delectus! Voluptate, sit! Doloremque voluptatem provident veniam aut temporibus, delectus, reprehenderit distinctio impedit, ratione at pariatur odio sunt nostrum nisi expedita similique fugiat possimus sapiente vel optio facere reiciendis magni architecto perferendis. Expedita quia, sequi libero voluptatibus hic natus quo beatae delectus! Laudantium quia totam iure sequi enim. Numquam, ab. At!</p>
-        </p>
-        <img src="./HTML Practise Assets/about.jpg" alt="About page image" />
-      </section>
-      <section id="discord">
-        <h2>Discord</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          quisquam ab adipisci, dolorem laudantium explicabo dolor! Id, quas
-          molestias veritatis aperiam sapiente, ratione enim aliquam animi rem
-          fugiat natus ducimus!
-        </p>
-        <img
-          src="./HTML Practise Assets/discord.png"
-          alt="Discord page image"
-        />
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="">
-            <label for="">Email</label>
-            <input type="text" placeholder="johndoe@example.com">
-            <label for="">Message</label>
-            <textarea type="text" placeholder="Welcome"> </textarea>
-        </form>
-      </section>
+        <section id="about">
+            <h2>About</h2>
+            <div class="section__description">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis sint sit iste repellendus modi
+                        odit
+                        possimus ullam ipsam delectus! Voluptate, sit! Doloremque voluptatem provident veniam aut
+                        temporibus, delectus, reprehenderit distinctio impedit, ratione at pariatur odio sunt nostrum
+                        nisi
+                        expedita similique fugiat possimus sapiente vel optio facere reiciendis magni architecto
+                        perferendis. Expedita quia, sequi libero voluptatibus hic natus quo beatae delectus! Laudantium
+                        quia
+                        totam iure sequi enim. Numquam, ab. At!</p>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis sint sit iste repellendus modi
+                        odit
+                        possimus ullam ipsam delectus! Voluptate, sit! Doloremque voluptatem provident veniam aut
+                        temporibus, delectus, reprehenderit distinctio impedit, ratione at pariatur odio sunt nostrum
+                        nisi
+                        expedita similique fugiat possimus sapiente vel optio facere reiciendis magni architecto
+                        perferendis. Expedita quia, sequi libero voluptatibus hic natus quo beatae delectus! Laudantium
+                        quia
+                        totam iure sequi enim. Numquam, ab. At!</p>
+                    </p>
+                </div>
+                <figure class="about__img--wrapper">
+                    <img src="./HTML Practise Assets/about.jpg" alt="" />
+                </figure>
+            </div>
+        </section>
+
+        <section id="discord">
+            <h2>Discord</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                quisquam ab adipisci, dolorem laudantium explicabo dolor! Id, quas
+                molestias veritatis aperiam sapiente, ratione enim aliquam animi rem
+                fugiat natus ducimus!
+            </p>
+            <img src="./HTML Practise Assets/discord.png" alt="Discord page image" />
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="">Email</label>
+                <input type="text" placeholder="johndoe@example.com">
+                <label for="">Message</label>
+                <textarea type="text" placeholder="Welcome"> </textarea>
+            </form>
+        </section>
     </main>
 
     <footer>
@@ -73,5 +98,6 @@
         </div>
         <p>Copyright Frontend Simplified!</p>
     </footer>
-  </body>
+</body>
+
 </html>
